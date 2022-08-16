@@ -1,0 +1,19 @@
+Algorithms Search(value)
+1.if count == full
+       print("List full")
+2.i = 0 , Search = True
+3.while i < count and Search == True
+       begin 
+              2.1 if Arr[i] == NULL
+	     j = i
+	     Search = false
+              2.2 if value == Arr[i]
+	     j = -1
+	     Search = false
+              2.3 else if value < Arr[i]
+	     j = i
+	     Search = false
+              2.4 else
+	     i = i + 1
+      end
+4.Return j
